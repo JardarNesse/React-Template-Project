@@ -1,0 +1,188 @@
+html, body {
+    height: 100%;
+}
+
+body
+{
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+
+    margin: 0;
+    padding: 0;
+
+    color: #2c3e50;
+
+    background: url("../img/beauty_of_nature-wide.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body *
+{
+    box-sizing: border-box;
+}
+
+section#puzzle-app
+{
+    width: 90%;
+    height: 90%;
+    overflow-x: hidden;
+    overflow-y: visible;
+    top: 20px;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    background-color: white;
+    opacity: 0.8;
+}
+
+h1
+{
+    color: #2c3e50;
+}
+
+select
+{
+    font-size: 24px;
+
+    display: block;
+
+    width: 100%;
+    height: 40px;
+}
+
+button
+{
+    font-size: 16px;
+    font-weight: bold;
+
+    display: block;
+
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 30px;
+
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    outline: none;
+    background: #2ecc71;
+    box-shadow: 0 5px 0 #27ae60;
+}
+
+button:hover
+{
+    background: #27ae60;
+    box-shadow: 0 5px 1px #145b32;
+}
+
+button:active
+{
+    border-top: 5px solid white;
+    box-shadow: none;
+}
+
+button[disabled]
+{
+    background: #95a5a6;
+    box-shadow: 0 5px 0 #7f8c8d;
+}
+
+button.view-cart
+{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    width: auto;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+button.view-cart:active
+{
+    border-top: 5px solid #e67e22;
+}
+
+button.toggleLog
+{
+    display: inline-block;
+    position: absolute;
+    top: 340px;
+    left: 340px;
+
+    width: 180px;
+    margin: 0 auto;
+}
+
+.hidden
+{
+    display:none;
+}
+
+.checkout
+{
+    position: absolute;
+    z-index: 999;
+    top: 20px;
+    left: 30px; 
+    width: 300px;
+    height: 185px;
+
+    background: white;
+    box-shadow: 0 0 5px rgba(0,0,0,.5);
+    border: 1px solid #2c3e50;
+}
+
+.checkout-view
+{
+    position: absolute;
+    z-index: 999;
+    top: 20px;
+    left: 840px; 
+    width: 280px;
+    height: 185px;
+
+    background: #D0D0D0;
+    box-shadow: 0 0 5px rgba(0,0,0,.5);
+    border: 1px dashed #2c3e50;
+    opacity: 0.7;
+}
+
+.checkout-view span
+{
+    font-size: 12px;
+    position: relative;
+    left: 15px;
+}
+
+.checkout-view h1
+{
+    font-size: 16px;
+    position: relative;
+    left: 10px;
+}
+
+.checkout h1
+{
+    font-size: 16px;
+    position: relative;
+    left: 10px;
+}
+
+.checkout p
+{
+    font-size: 12px;
+    position: relative;
+    left: 15px;
+}
+
+.checkout input
+{
+    font-size: 12px;
+    position: absolute;
+    left: 90px;
+    width: 180px;
+}
+
